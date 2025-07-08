@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+#loadingDiv {
+	width:20px;
+	height:20px;
+	border:5px solid skyblue;
+	border-bottom:5px solid blue;
+	border-radius:50%;
+	animation:loader 2s infinite linear;
+	display:none;
+}
+
+@keyframes loader {
+	0% {
+		transform:rotate(0deg);
+	}
+	25% {
+		transform:rotate(45deg);
+	}
+	50% {
+		transform:rotate(90deg);
+	}
+	75% {
+		transform:rotate(180deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}
