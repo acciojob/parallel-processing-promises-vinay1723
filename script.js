@@ -4,7 +4,7 @@ const btn = document.getElementById("download-images-button");
 const error = document.getElementById('error');
 const loading = document.getElementById('loading');
 const images = [
-  { url: "https://picsum.photos/id/237/200/3001" },
+  { url: "https://picsum.photos/id/237/200/300" },
   { url: "https://picsum.photos/id/238/200/300" },
   { url: "https://picsum.photos/id/239/200/300" },
 ];
